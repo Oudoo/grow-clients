@@ -8,10 +8,11 @@
 
     // ─── CONFIG ───
     const STORAGE_KEY = 'grow_playbook_data';
-    const CLIENTS = ['nour', 'heka', 'base'];
+    const CLIENTS = ['nour', 'heka', 'hekap', 'base'];
     const CLIENT_META = {
         nour: { name: 'Nour Clinic Elite', duration: 60, contact: 'Prof. Ahmed Adel Nour-Eldin' },
-        heka: { name: 'Heka Pharmacy', duration: 60, contact: 'Heka Wellness Hub' },
+        heka: { name: 'Heka Cosmetics', duration: 60, contact: 'Heka Wellness Hub' },
+        hekap: { name: 'Heka Pharmacy', duration: 60, contact: 'Heka Pharmacy' },
         base: { name: 'Base Training Club', duration: 45, contact: 'Base Training Club' }
     };
 
@@ -335,6 +336,13 @@
                 { end: 25, label: 'Phase II — Inventory & Operations' },
                 { end: 40, label: 'Phase III — Customer Retention' },
                 { end: 50, label: 'Phase IV — D2C vs B2B Strategy' },
+                { end: 60, label: 'Phase V — Quick Wins & Next Steps' }
+            ],
+            hekap: [
+                { end: 10, label: 'Phase I — Brand & Clinical Vision' },
+                { end: 20, label: 'Phase II — The Aggregator Trap' },
+                { end: 35, label: 'Phase III — The Friction Log' },
+                { end: 50, label: 'Phase IV — LTV / Replenishment Hook' },
                 { end: 60, label: 'Phase V — Quick Wins & Next Steps' }
             ],
             base: [
