@@ -42,7 +42,7 @@
     };
 
     function applyTheme() {
-        const saved = localStorage.getItem('grow_theme') || 'dark';
+        const saved = localStorage.getItem('grow_theme') || 'light';
         document.documentElement.setAttribute('data-theme', saved);
         updateThemeIcon(saved);
     }
