@@ -339,11 +339,11 @@
                 { end: 60, label: 'Phase V — Quick Wins & Next Steps' }
             ],
             hekap: [
-                { end: 10, label: 'Phase I — Brand & Clinical Vision' },
-                { end: 20, label: 'Phase II — The Aggregator Trap' },
-                { end: 35, label: 'Phase III — The Friction Log' },
-                { end: 50, label: 'Phase IV — LTV / Replenishment Hook' },
-                { end: 60, label: 'Phase V — Quick Wins & Next Steps' }
+                { end: 15, label: 'Phase I — Alignment & Core Vision' },
+                { end: 30, label: 'Phase II — The Friction Log' },
+                { end: 45, label: 'Phase III — Marketing & Funnel Economics' },
+                { end: 55, label: 'Phase IV — Systems Architecture' },
+                { end: 60, label: 'Phase V — The 14-Day Quick Win' }
             ],
             base: [
                 { end: 10, label: 'Phase I — Vision & Capacity' },
