@@ -339,11 +339,11 @@
                 { end: 60, label: 'Phase V — Quick Wins & Next Steps' }
             ],
             hekap: [
-                { end: 15, label: 'Phase I — Alignment & Core Vision' },
-                { end: 30, label: 'Phase II — The Friction Log' },
-                { end: 45, label: 'Phase III — Marketing & Funnel Economics' },
-                { end: 55, label: 'Phase IV — Systems Architecture' },
-                { end: 60, label: 'Phase V — The 14-Day Quick Win' }
+                { end: 12, label: 'Phase I — Core Business Objectives' },
+                { end: 24, label: 'Phase II — Target Audience & Experience' },
+                { end: 36, label: 'Phase III — Digital Infrastructure' },
+                { end: 48, label: 'Phase IV — Brand & Competitive Positioning' },
+                { end: 60, label: 'Phase V — Budget & Execution Readiness' }
             ],
             base: [
                 { end: 10, label: 'Phase I — Vision & Capacity' },
