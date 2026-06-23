@@ -47,6 +47,10 @@
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                     Base Training Club
                 </button>
+                <button class="nav-tab" id="tab-roky" onclick="switchTab('roky')">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+                    its just roky
+                </button>
             </div>
 
             <div style="margin-top:var(--space-xl)">
@@ -1012,6 +1016,277 @@
                 </div>
 
                 <!-- ════════════════════════════════════════ -->
+                <!-- PANEL: ROKY (its just roky)            -->
+                <!-- ════════════════════════════════════════ -->
+                <div class="tab-panel" id="panel-roky">
+
+                    <div class="page-header">
+                        <div class="page-header-top">
+                            <div>
+                                <h1>Executive Induction Playbook</h1>
+                                <p class="subtitle">Client: its just roky (Premium Health-Food Ecosystem)</p>
+                            </div>
+                            <div style="display:flex;align-items:center;gap:var(--space-md);">
+                                <span id="live-badge-roky" class="live-badge" style="display:none;">LIVE</span>
+                                <span class="duration-badge">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                    60 Minutes
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timer -->
+                    <div class="meeting-timer">
+                        <div><div id="timer-display-roky" class="timer-display">60:00</div></div>
+                        <div class="timer-info">
+                            <div id="timer-phase-roky" class="timer-phase">READY</div>
+                            <div class="timer-progress"><div id="timer-progress-roky" class="timer-progress-bar" style="width:0%"></div></div>
+                        </div>
+                        <div class="timer-controls">
+                            <button class="timer-btn" onclick="startTimer('roky')" title="Start"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg></button>
+                            <button class="timer-btn" onclick="pauseTimer('roky')" title="Pause"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg></button>
+                            <button class="timer-btn" onclick="resetTimer('roky')" title="Reset"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg></button>
+                        </div>
+                    </div>
+
+                    <!-- Checklist -->
+                    <div class="checklist-panel">
+                        <div class="checklist-header">
+                            <div class="checklist-header-left">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                                Pre-Meeting Readiness — The "Homework" Dossier
+                            </div>
+                            <span class="checklist-progress">0/5</span>
+                        </div>
+                        <div class="checklist-body">
+                            <div class="checklist-items">
+                                <div class="checklist-item"><input type="checkbox" data-check-key="roky-1" id="roky-check-1"><label for="roky-check-1">Prepared polished 1–2 page Executive Footprint Audit to present at opening</label></div>
+                                <div class="checklist-item"><input type="checkbox" data-check-key="roky-2" id="roky-check-2"><label for="roky-check-2">Acknowledged premium health-food positioning — "its just roky" is NOT fast-casual</label></div>
+                                <div class="checklist-item"><input type="checkbox" data-check-key="roky-3" id="roky-check-3"><label for="roky-check-3">Mapped menu architecture — hero items "The Mexican" &amp; "The Krispy Kale" (335–460 EGP)</label></div>
+                                <div class="checklist-item"><input type="checkbox" data-check-key="roky-4" id="roky-check-4"><label for="roky-check-4">Identified revenue streams: à la carte, structured meal plans, event catering</label></div>
+                                <div class="checklist-item"><input type="checkbox" data-check-key="roky-5" id="roky-check-5"><label for="roky-check-5">Noted existing D2C and e-commerce infrastructure (Shopify)</label></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Internal Banner -->
+                    <div class="internal-banner">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                        <div>
+                            <strong>Internal Use Only — "Unlimited Dreams" Protocol Active</strong>
+                            Do not restrict, reject, or limit the client's vision at any stage. Capture it in its entirety to fuel our intelligence engine. The goal is to find the operational gaps we can scale.
+                        </div>
+                    </div>
+
+                    <!-- Translation Matrix -->
+                    <div class="translation-matrix">
+                        <div class="translation-matrix-header">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                            The Translation Matrix (PM Rules)
+                        </div>
+                        <div class="matrix-grid">
+                            <div class="matrix-card"><span class="matrix-dont">🚫 Don't say "Fast food / delivery brand"</span><span class="matrix-do">✅ Say "Premium health-food ecosystem"</span></div>
+                            <div class="matrix-card"><span class="matrix-dont">🚫 Don't say "Customers"</span><span class="matrix-do">✅ Say "High-value meal plan subscribers and event clients"</span></div>
+                            <div class="matrix-card"><span class="matrix-dont">🚫 Don't say "CAC / Lead Gen"</span><span class="matrix-do">✅ Say "Most effective acquisition channel for your segment"</span></div>
+                            <div class="matrix-card"><span class="matrix-dont">🚫 Don't restrict or limit their vision</span><span class="matrix-do">✅ Capture everything — it fuels the intelligence engine</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Meeting Phases -->
+                    <div class="phases-container">
+
+                        <!-- Phase I -->
+                        <div class="phase-card">
+                            <button class="phase-toggle">
+                                <span class="phase-toggle-title">I. 00:00 – 0:10 | The Executive Download</span>
+                                <svg class="phase-toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                            </button>
+                            <div class="phase-body">
+                                <div class="phase-inner">
+                                    <div class="psych-label">Objective</div>
+                                    <p class="psych-text">Open by presenting the Executive Footprint Audit. This instantly proves we are proactive, not reactive — we did the homework before walking in the door. Let them correct or add to the audit; every correction is intelligence.</p>
+                                    <div class="script-box">
+                                        <div class="script-label">🗣️ The Script</div>
+                                        <p class="script-text">"Since we are looking to build a comprehensive growth ecosystem for 'its just roky,' our analysts have already mapped your current digital footprint and menu architecture. We see the premium positioning and the D2C foundation. Today is about finding the operational gaps we can scale."</p>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Client Reaction &amp; Corrections to Our Audit</label>
+                                        <textarea class="capture-input" data-field="roky_p1a" rows="3" placeholder="Did they correct our menu data, pricing, or revenue stream mapping? Note every correction."></textarea>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Any Unreported Revenue Streams or Products</label>
+                                        <textarea class="capture-input" data-field="roky_p1b" rows="2" placeholder="Did they mention anything we missed — new menu lines, B2B partnerships, etc.?"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Phase II -->
+                        <div class="phase-card">
+                            <button class="phase-toggle">
+                                <span class="phase-toggle-title">II. 00:10 – 0:25 | The "Unlimited Dreams" Protocol</span>
+                                <svg class="phase-toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                            </button>
+                            <div class="phase-body">
+                                <div class="phase-inner">
+                                    <div class="psych-label">Objective</div>
+                                    <p class="psych-text">Do not restrict, reject, or limit the client's vision during this stage. Let them dream at full scale. Capture it in its entirety — the unfiltered vision is the raw material for the entire strategic roadmap.</p>
+                                    <div class="script-box">
+                                        <div class="script-label">🗣️ Ask</div>
+                                        <p class="script-text">"If we fast-forward 12 to 24 months and everything has gone exactly as you envisioned — what does 'its just roky' look like? Are you running new cloud kitchens, scaling meal plan subscriptions nationally, or pushing into retail?"</p>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: 12–24 Month Expansion Vision (Verbatim)</label>
+                                        <textarea class="capture-input" data-field="roky_p2a" rows="3" placeholder="Cloud kitchens? Meal plan subscriptions? Retail shelves? New cities? Capture everything."></textarea>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Priority Growth Lever They Are Most Excited About</label>
+                                        <textarea class="capture-input" data-field="roky_p2b" rows="2" placeholder="What lights them up most? That is where they will commit budget."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Phase III -->
+                        <div class="phase-card">
+                            <button class="phase-toggle">
+                                <span class="phase-toggle-title">III. 00:25 – 0:40 | The Friction Log &amp; Operational Bottleneck</span>
+                                <svg class="phase-toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                            </button>
+                            <div class="phase-body">
+                                <div class="phase-inner">
+                                    <div class="psych-label">Objective</div>
+                                    <p class="psych-text">This is the most critical operational question of the meeting. Identifying the exact pain point allows us to formulate the immediate "14-Day Quick Win" we will deliver post-signature to build unshakeable trust.</p>
+                                    <div class="script-box">
+                                        <div class="script-label">🗣️ The Script — Ask This Explicitly</div>
+                                        <p class="script-text">"What is the most frustrating bottleneck in your business right now?"</p>
+                                    </div>
+                                    <div class="goal-box">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                                        <span class="goal-text">Goal: The answer to this single question defines the entire 14-Day Quick Win deliverable. Write it down verbatim.</span>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Primary Bottleneck — VERBATIM</label>
+                                        <textarea class="capture-input" data-field="roky_p3a" rows="3" placeholder="Write their answer word for word. This becomes the 14-Day Quick Win brief."></textarea>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Secondary Friction Points Mentioned</label>
+                                        <textarea class="capture-input" data-field="roky_p3b" rows="2" placeholder="Any other operational complaints surfaced during this phase?"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Phase IV -->
+                        <div class="phase-card">
+                            <button class="phase-toggle">
+                                <span class="phase-toggle-title">IV. 00:40 – 0:55 | The Culinary &amp; Systems Audit</span>
+                                <svg class="phase-toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                            </button>
+                            <div class="phase-body">
+                                <div class="phase-inner">
+                                    <div class="psych-label">Objective</div>
+                                    <p class="psych-text">This is the hidden Prerequisite Form extraction. Weave these five questions into the conversation naturally — do not deliver them as a questionnaire. Each answer feeds a specific module of The Grow Engine.</p>
+
+                                    <div class="script-box">
+                                        <div class="script-label">🗣️ Kitchen Capacity</div>
+                                        <p class="script-text">"To ensure our marketing efforts don't break your kitchen operations, what is the maximum daily order volume your current infrastructure can sustain before food quality or fulfillment times degrade?"</p>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Max Daily Order Capacity</label>
+                                        <textarea class="capture-input" data-field="roky_p4a" rows="2" placeholder="e.g., Kitchen caps at ~80 orders/day before quality drops"></textarea>
+                                    </div>
+
+                                    <div class="script-box">
+                                        <div class="script-label">🗣️ Revenue Hierarchy</div>
+                                        <p class="script-text">"Between your structured meal plans, direct à la carte delivery, third-party aggregators, and event catering, how would you rank them from highest revenue generator to lowest?"</p>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Revenue Stream Ranking (Highest → Lowest)</label>
+                                        <textarea class="capture-input" data-field="roky_p4b" rows="2" placeholder="e.g., Meal plans > Event catering > À la carte > Aggregators"></textarea>
+                                    </div>
+
+                                    <div class="script-box">
+                                        <div class="script-label">🗣️ Tech Stack Friction</div>
+                                        <p class="script-text">"Are you currently managing meal plan renewals and delivery routing directly through Shopify and your POS, or is it creating friction for your management team?"</p>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Tech Stack Reality &amp; Friction Points</label>
+                                        <textarea class="capture-input" data-field="roky_p4c" rows="2" placeholder="e.g., Shopify for D2C, manual WhatsApp for meal plan renewals, no CRM"></textarea>
+                                    </div>
+
+                                    <div class="script-box">
+                                        <div class="script-label">🗣️ Retention &amp; Churn</div>
+                                        <p class="script-text">"For your high-value meal plan subscribers, what are the top two reasons you hear when someone decides not to renew?"</p>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Top 2 Meal Plan Churn Reasons</label>
+                                        <textarea class="capture-input" data-field="roky_p4d" rows="2" placeholder="e.g., Price fatigue after month 2, menu variety drops off"></textarea>
+                                    </div>
+
+                                    <div class="script-box">
+                                        <div class="script-label">🗣️ Acquisition &amp; CAC</div>
+                                        <p class="script-text">"Currently, where are you seeing the most effective volume coming from — is it word of mouth, organic food styling on Instagram, or paid Meta ads?"</p>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Top Acquisition Channel &amp; Estimated CAC</label>
+                                        <textarea class="capture-input" data-field="roky_p4e" rows="2" placeholder="e.g., Instagram organic is strongest, Meta paid is being tested but no clear CAC yet"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Phase V -->
+                        <div class="phase-card">
+                            <button class="phase-toggle">
+                                <span class="phase-toggle-title">V. 00:55 – 1:00 | Success Definition &amp; Next Steps</span>
+                                <svg class="phase-toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                            </button>
+                            <div class="phase-body">
+                                <div class="phase-inner">
+                                    <div class="psych-label">Objective</div>
+                                    <p class="psych-text">Plant the strategic seed for backend system integrations (Zoho, Salesforce, custom ERPs) by pairing the baseline marketing proposal with a Business Systems Audit. Define the 14-Day Quick Win and explain the Good/Better/Best Technical Feasibility Report.</p>
+                                    <div class="script-box">
+                                        <div class="script-label">🗣️ The Close</div>
+                                        <p class="script-text">"The next step is delivering a Good/Better/Best Technical Feasibility Report mapping out exact man-day requirements for your growth. Alongside that, we will identify one high-leverage quick win we can execute in the next 14 days to prove the system before the full engagement begins."</p>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Agreed 14-Day Quick Win</label>
+                                        <textarea class="capture-input" data-field="roky_p5a" rows="2" placeholder="Defined from their Phase III bottleneck answer — what is the first deliverable?"></textarea>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Backend System Integration Interest (Zoho / Salesforce / Custom ERP)</label>
+                                        <textarea class="capture-input" data-field="roky_p5b" rows="2" placeholder="Are they open to a Business Systems Audit? Any existing tools they want to integrate?"></textarea>
+                                    </div>
+                                    <div class="capture-group">
+                                        <label class="capture-label">Capture: Final Commitments &amp; Decision Timeline</label>
+                                        <textarea class="capture-input" data-field="roky_p5c" rows="2" placeholder="Who signs off? What is the decision timeline? Any next meeting booked?"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Bar -->
+                    <div class="action-bar">
+                        <button class="btn btn-dark" onclick="copyData('roky')">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                            Copy Data
+                        </button>
+                        <button class="btn btn-primary" onclick="saveData('roky')">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+                            Save Data
+                        </button>
+                        <button class="btn btn-ghost" onclick="exportPDF('roky')">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                            Export PDF
+                        </button>
+                    </div>
+                    <div id="save-indicator-roky" class="save-indicator"></div>
+                </div>
+
+                <!-- ════════════════════════════════════════ -->
                 <!-- PANEL: CONSOLIDATED DASHBOARD           -->
                 <!-- ════════════════════════════════════════ -->
                 <div class="tab-panel" id="panel-dashboard">
@@ -1078,6 +1353,16 @@
                         <div class="dashboard-card" id="dash-card-base">
                             <div class="dashboard-card-header">
                                 <span class="dashboard-card-title">Base Training Club</span>
+                                <span class="dashboard-card-status status-pending">Pending</span>
+                            </div>
+                            <div class="dashboard-card-meta">No data saved yet</div>
+                            <div class="dashboard-card-fields"></div>
+                        </div>
+
+                        <!-- Roky Card -->
+                        <div class="dashboard-card" id="dash-card-roky">
+                            <div class="dashboard-card-header">
+                                <span class="dashboard-card-title">its just roky</span>
                                 <span class="dashboard-card-status status-pending">Pending</span>
                             </div>
                             <div class="dashboard-card-meta">No data saved yet</div>
