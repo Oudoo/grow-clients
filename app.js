@@ -8,13 +8,14 @@
 
     // ─── CONFIG ───
     const STORAGE_KEY = 'grow_playbook_data';
-    const CLIENTS = ['nour', 'heka', 'hekap', 'base', 'roky'];
+    const CLIENTS = ['nour', 'heka', 'hekap', 'base', 'roky', 'dental180'];
     const CLIENT_META = {
         nour: { name: 'Nour Clinic Elite', duration: 60, contact: 'Prof. Ahmed Adel Nour-Eldin' },
         heka: { name: 'Heka Cosmetics', duration: 60, contact: 'Heka Wellness Hub' },
         hekap: { name: 'Heka Pharmacy', duration: 60, contact: 'Heka Pharmacy' },
         base: { name: 'Base Training Club', duration: 45, contact: 'Base Training Club' },
-        roky: { name: '180 Dental Center', duration: 60, contact: 'Roky' }
+        roky: { name: 'its just roky', duration: 60, contact: 'its just roky' },
+        dental180: { name: '180 Dental & Cosmetics', duration: 60, contact: '180 Dental & Cosmetics' }
     };
 
     // ─── STATE ───
@@ -347,6 +348,13 @@
                 { end: 60, label: 'Phase V — Budget & Execution Readiness' }
             ],
             roky: [
+                { end: 10, label: 'Phase I — The Executive Download' },
+                { end: 25, label: 'Phase II — The Unlimited Dreams Protocol' },
+                { end: 40, label: 'Phase III — The Friction Log' },
+                { end: 55, label: 'Phase IV — Culinary & Systems Audit' },
+                { end: 60, label: 'Phase V — Success Definition & Next Steps' }
+            ],
+            dental180: [
                 { end: 10, label: 'Phase I — Clinical Operations' },
                 { end: 25, label: 'Phase II — Revenue & Margins' },
                 { end: 40, label: 'Phase III — The Patient Lifecycle' },
