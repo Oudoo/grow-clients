@@ -14,7 +14,7 @@
         heka: { name: 'Heka Cosmetics', duration: 60, contact: 'Heka Wellness Hub' },
         hekap: { name: 'Heka Pharmacy', duration: 60, contact: 'Heka Pharmacy' },
         base: { name: 'Base Training Club', duration: 45, contact: 'Base Training Club' },
-        roky: { name: 'its just roky', duration: 60, contact: 'its just roky' }
+        roky: { name: '180 Dental Center', duration: 60, contact: 'Roky' }
     };
 
     // ─── STATE ───
@@ -347,11 +347,11 @@
                 { end: 60, label: 'Phase V — Budget & Execution Readiness' }
             ],
             roky: [
-                { end: 10, label: 'Phase I — The Executive Download' },
-                { end: 25, label: 'Phase II — The Unlimited Dreams Protocol' },
-                { end: 40, label: 'Phase III — The Friction Log' },
-                { end: 55, label: 'Phase IV — Culinary & Systems Audit' },
-                { end: 60, label: 'Phase V — Success Definition & Next Steps' }
+                { end: 10, label: 'Phase I — Clinical Operations' },
+                { end: 25, label: 'Phase II — Revenue & Margins' },
+                { end: 40, label: 'Phase III — The Patient Lifecycle' },
+                { end: 50, label: 'Phase IV — Marketing & Acquisition' },
+                { end: 60, label: 'Phase V — Tech Stack & Next Steps' }
             ],
             base: [
                 { end: 10, label: 'Phase I — Vision & Capacity' },
